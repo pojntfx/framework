@@ -1,0 +1,83 @@
+/* Text */
+
+.text-primary {
+  color: rgb(33, 150, 243);
+}
+
+.text-secondary {
+  color: rgb(96, 125, 139);
+}
+
+.text-success {
+  color: rgb(76, 175, 80);
+}
+
+.text-danger {
+  color: rgb(244, 67, 54);
+}
+
+.text-warning {
+  color: rgb(255, 152, 0);
+}
+
+.text-info {
+  color: rgb(3, 169, 244);
+}
+
+.text-light {
+  color: #f8f9fa;
+}
+
+.text-dark {
+  color: #000;
+}
+
+.text-muted {
+  color: rgb(158, 158, 158);
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Background */
+
+.bg-primary {
+  background: rgb(33, 150, 243);
+}
+
+.bg-secondary {
+  background: #374046;
+}
+
+.bg-success {
+  background: rgb(76, 175, 80);
+}
+
+.bg-danger {
+  background: rgb(244, 67, 54);
+}
+
+.bg-warning {
+  background: rgb(255, 152, 0);
+}
+
+.bg-info {
+  background: rgb(3, 169, 244);
+}
+
+.bg-light {
+  background: #f8f9fa;
+}
+
+.bg-dark {
+  background: rgb(96, 125, 139);
+}
+
+.bg-muted {
+  background: rgb(158, 158, 158);
+}
+
+.bg-white {
+  background: #fff;
+}

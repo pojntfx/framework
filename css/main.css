@@ -1,6 +1,9 @@
 @import url("/css/layout/container.css");
 @import url("/css/layout/grid.css");
 @import url("/css/utlis/utlis.css");
+@import url("/css/utlis/colors.css");
+@import url("/css/utlis/spacing.css");
+@import url("/css/style/style.css");
 /* Reset */
 
 body {
