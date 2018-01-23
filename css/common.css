@@ -1,154 +1,39 @@
-/*
-  Eluseum Copyright (C) 2018 Kevin Pakula & Felix Pojtinger
-  This program is free software: you can redistribute it and/or
-  modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version
-  3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-  GNU General Public License for more details. You should have received a copy of the GNU General Public License along with
-  this program. If not, see http://www.gnu.org/licenses/.
-*/
+/* Reset */
 
 body {
-    /* Use the Roboto font family */
-    font-family: 'Roboto', sans-serif;
-    /* Remove the unnecessary padding of the document */
+  margin: 0;
+}
+
+
+/* Responsive Utils */
+
+@media screen and (min-width: 992px) {
+  .container {
+    padding: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 1rem;
     margin: 0;
-    padding: 0;
-}
-
-/* Header */
-
-header, footer {
-    /* Dark primary color */
-    background: #455A64;
-    /* Text/icons on dark background*/
-    color: #fff;
-    padding: 1.25rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/* Add margin to every nav element */
-
-header>ul>li:not(:last-child) {
-    margin-right: 0.5rem;
-}
-
-/* Branding */
-
-.brand {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-/* Navigation */
-
-header>.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-header>.nav>li>a, footer>p>a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-header>.nav>li>a.current {
-    color: #448AFF;
-}
-
-/* Container */
-
-.container {
-    padding: 5vw;
-}
-
-/* Remove the top margin from the first element in a container */
-
-.container>*:first-child {
-    margin-top: 0;
-}
-
-/* Remove the bottom margin from the last element in a container */
-
-.container>*:last-child {
-    margin-bottom: 0;
-}
-
-/* Footer */
-
-footer>* {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #CFD8DC;
-}
-
-.copyleft {
-    display: inline-block;
-    transform: rotate(180deg)
-}
-
-/* Jumbotron */
-
-.jumbotron {
-    background: #455A64;
-    color: #fff;
-    padding: 5vw;
-    padding-top: 2.5vw;
-}
-
-.jumbotron>h1 {
-    padding: 0;
-    margin: 0;
-}
-
-/* Responsive utils */
-
-@media screen and (min-width: 1920px) {
-    .jumbotron, .container {
-        padding-left: 30vw;
-        padding-right: 30vw;
-    }
-}
-
-@media screen and (max-width: 385px) {
-    header, footer {
-        justify-content: center;
-    }
-    .jumbotron {
-        background: #607D8B;
-    }
-    .brand {
-        font-size: 1.5rem;
-        margin-bottom: 1.25rem;
-    }
-}
-
-/* Button */
-
-a.button {
-    color: inherit;
-    background: #448AFF;
-    padding: 0.5rem;
-    border: 1px solid #448AFF;
-    border-radius: 2px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-a.button:hover {
-    box-shadow: 0px 0px 2px #448AFF;
-}
-
-a.button.secondary {
-    background: transparent;
-    border: 1px solid #CFD8DC;
-}
-
-a.button.secondary:hover {
-    box-shadow: 0px 0px 2px #CFD8DC;
+  }
 }
