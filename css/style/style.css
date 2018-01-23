@@ -1,0 +1,6 @@
+/* Make the cards big enough to show the background color */
+
+.bg-color-test {
+  width: 6rem;
+  height: 2rem;
+}
