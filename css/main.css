@@ -1,9 +1,19 @@
+/* Layout */
+
 @import url("/css/layout/container.css");
 @import url("/css/layout/grid.css");
+@import url("/css/layout/alignment.css");
+/* Utils */
+
 @import url("/css/utlis/utlis.css");
 @import url("/css/utlis/colors.css");
 @import url("/css/utlis/spacing.css");
+/* Custom style for the docs */
+
 @import url("/css/style/style.css");
+/* Content */
+
+@import url("/css/content/img.css");
 /* Reset */
 
 body {
