@@ -1,3 +1,9 @@
+/* Wrapper (For simple flexbox) */
+
+.wrapper {
+  display: flex;
+}
+
 /* Row */
 
 /* Display as flex */

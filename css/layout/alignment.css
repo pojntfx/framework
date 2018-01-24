@@ -1,0 +1,39 @@
+/* Alignment */
+
+.align-left {
+  align-self: left;
+}
+
+.align-right {
+  align-self: right;
+}
+
+.align-center {
+  margin-left: auto!important;
+  margin-right: auto!important;
+}
+
+/* Justification */
+
+.justify-top {
+  margin-top: auto!important;
+}
+
+.justify-bottom {
+  margin-bottom: auto!important;
+}
+
+.justify-center {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
+
+/* Float */
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}

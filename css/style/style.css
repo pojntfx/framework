@@ -4,3 +4,8 @@
   width: 6rem;
   height: 2rem;
 }
+
+/* Make the cols big enough to show alignment in the "Alignment" page */
+.col-demo-height {
+  height: 4rem;
+}
