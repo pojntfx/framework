@@ -10,11 +10,29 @@
 
   <!-- Common styles -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
 </head>
 
 <body>
+  <div class="container-fluid bg-light sdw-a-1">
+    <div class="container py-1 text-dark">
+      <div class="row">
+        <div class="col ma-0">
+          <h1>
+            {{ page.navbarTitle }}
+          </h1>
+        </div>
+        <div class="col ma-0 justify-center">
+          <a href="https://github.com/eluseum" class="float-right link-dark">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Main container -->
-  <div class="container">
+  <div class="container pt-1">
     {{ content }}
   </div>
 </body>
