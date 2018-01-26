@@ -40,6 +40,10 @@
   color: #fff;
 }
 
+.text-black {
+  color: #000;
+}
+
 /* Links */
 
 a.link-dark {
@@ -59,7 +63,7 @@ a.link-light {
 }
 
 .bg-secondary {
-  background: #374046;
+  background: rgb(96, 125, 139);
 }
 
 .bg-success {
@@ -83,7 +87,7 @@ a.link-light {
 }
 
 .bg-dark {
-  background: rgb(96, 125, 139);
+  background: #374046;
 }
 
 .bg-muted {
@@ -92,4 +96,8 @@ a.link-light {
 
 .bg-white {
   background: #fff;
+}
+
+.bg-black {
+  background: #000;
 }

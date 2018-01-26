@@ -12,6 +12,9 @@
 
 @import url("/css/content/img.css");
 @import url("/css/content/typography.css");
+/* Components */
+
+@import url("/css/components/alerts.css");
 /* Default style */
 
 @import url("/css/style/shadows.css");
