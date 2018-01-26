@@ -8,12 +8,16 @@
 @import url("/css/utlis/utlis.css");
 @import url("/css/utlis/colors.css");
 @import url("/css/utlis/spacing.css");
-/* Custom style for the docs */
-
-@import url("/css/style/style.css");
 /* Content */
 
 @import url("/css/content/img.css");
+@import url("/css/content/typography.css");
+/* Default style */
+
+@import url("/css/style/shadows.css");
+/* Specific style for the docs */
+
+@import url("/css/style/style.css");
 /* Reset */
 
 body {

@@ -1,9 +1,9 @@
 ---
 title: 'Home'
+navbarTitle: 'The Eluseum Framework'
 layout: 'home'
 ---
 
-<h1>The Eluseum Framework</h1>
 <h3>Layout</h3>
 
 <ul>
@@ -11,7 +11,7 @@ layout: 'home'
 
     {% if post.category contains 'Layout' %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
 
@@ -25,7 +25,7 @@ layout: 'home'
 
     {% if post.category contains 'Content' %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
 
@@ -39,7 +39,7 @@ layout: 'home'
 
     {% if post.category contains 'Component' %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
 
@@ -53,7 +53,7 @@ layout: 'home'
 
     {% if post.category contains 'Utils' %}
       <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
 

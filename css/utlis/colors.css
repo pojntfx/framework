@@ -40,6 +40,18 @@
   color: #fff;
 }
 
+/* Links */
+
+a.link-dark {
+  color: #000;
+  text-decoration: inherit;
+}
+
+a.link-light {
+  color: #f8f9fa;
+  text-decoration: inherit;
+}
+
 /* Background */
 
 .bg-primary {

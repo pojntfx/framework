@@ -1,7 +1,13 @@
 /* Container */
 
+/* Has breakpoints and max widht*/
 .container {
   padding: 4rem;
   margin: auto;
   max-width: 1600px;
+}
+
+/* Does not have any breakpoints nor a max width */
+.container-fluid {
+  width: 100%;
 }
