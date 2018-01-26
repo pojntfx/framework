@@ -15,6 +15,7 @@
 /* Components */
 
 @import url("/css/components/alerts.css");
+@import url("/css/components/buttons.css");
 /* Default style */
 
 @import url("/css/style/shadows.css");

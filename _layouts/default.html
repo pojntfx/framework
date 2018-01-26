@@ -20,12 +20,24 @@
     <div class="container py-1 text-light">
       <div class="row">
         <div class="col ma-0">
-          <h1>
-            <a href="{{ site.baseurl }}/index.html" class="link-light">{{ page.category }}</a>&nbsp;/&nbsp;{{ page.title }}
-          </h1>
+          <div class="wrapper">
+            <div class="row">
+              <div class="col ma-0 float-left">
+                <h1>
+                  <a href="{{ site.baseurl }}/index.html" class="link-light">{{ page.category }}</a>
+                </h1>
+              </div>
+              <div class="col ma-0 float-left">
+                <h1>&nbsp;/&nbsp;{{ page.title }}</h1>
+              </div>
+            </div>
+          </div>
+          
         </div>
         <div class="col ma-0 justify-center">
-          <a href="{{ site.baseurl }}/index.html" class="float-right link-light">Close</a>
+          <a href="{{ site.baseurl }}/index.html">
+            <button type="button" class="btn btn-light btn-danger-on-hover float-right link-light">Close</button>
+          </a> 
         </div>
       </div>
     </div>
