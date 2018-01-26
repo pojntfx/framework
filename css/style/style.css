@@ -6,6 +6,21 @@
 }
 
 /* Make the cols big enough to show alignment in the "Alignment" page */
+
 .col-demo-height {
   height: 4rem;
+}
+
+/* Add a "close" button that is red on hover */
+
+button.btn-danger-on-hover:hover {
+  background: rgb(244, 67, 54);
+  color: #fff;
+}
+
+/* Add a margin to every button on the button demo page except for
+the last one */
+
+.wrapper-wrap-margins>*:not(:last-child) {
+  margin-right: 1rem;
 }

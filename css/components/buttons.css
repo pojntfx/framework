@@ -1,0 +1,133 @@
+/* Buttons */
+
+/* Common style */
+
+/* Remove the link's markup */
+a.btn {
+  text-decoration: none;
+}
+
+/* Style the button to a rough implementation of material design */
+button.btn {
+  text-decoration: none;
+  background-color: #f8f9fa;
+  color: #000;
+  padding: 1rem 2rem;
+  border: 0;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  text-transform: uppercase;
+}
+
+button.btn:hover {
+  box-shadow: 0 1px 12px rgba(32, 33, 36, 0.28);
+  background: #dbdbdb;
+}
+
+/* Colors */
+
+button.btn-primary {
+  background: rgb(33, 150, 243);
+  color: #fff;
+}
+
+button.btn-primary:hover {
+  background: rgb(33, 99, 153);
+}
+
+button.btn-secondary {
+  background: rgb(96, 125, 139);
+  color: #fff;
+}
+
+button.btn-secondary:hover {
+  background: rgb(52, 67, 75);
+}
+
+button.btn-success {
+  background: rgb(76, 175, 80);
+  color: #fff;
+}
+
+button.btn-success:hover {
+  background: rgb(49, 116, 52);
+}
+
+button.btn-danger {
+  background: rgb(244, 67, 54);
+  color: #000;
+}
+
+button.btn-danger:hover {
+  background: rgb(175, 47, 37);
+  color: #fff;
+}
+
+button.btn-warning {
+  background: rgb(255, 152, 0);
+  color: #000;
+}
+
+button.btn-warning:hover {
+  background: rgb(207, 124, 0);
+  color: #fff;
+}
+
+button.btn-info {
+  background: rgb(3, 169, 244);
+  color: #fff;
+}
+
+button.btn-info:hover {
+  background: rgb(2, 104, 151);
+  color: #fff;
+}
+
+button.btn-light {
+  background: #f8f9fa;
+}
+
+button.btn-dark {
+  background: #374046;
+  color: #fff;
+}
+
+button.btn-dark:hover {
+  background: #14171a;
+}
+
+button.btn-muted {
+  background: rgb(158, 158, 158);
+  color: #fff;
+}
+
+button.btn-muted:hover {
+  background: rgb(82, 82, 82);
+}
+
+button.btn-white {
+  background: #fff;
+}
+
+button.btn-white:hover {
+  background: #f8f9fa;
+}
+
+button.btn-white {
+  background: #fff;
+}
+
+button.btn-white:hover {
+  background: #f8f9fa;
+}
+
+button.btn-black {
+  background: #000;
+  color: #fff;
+}
+
+button.btn-black:hover {
+  background: #000;
+}

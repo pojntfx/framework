@@ -4,6 +4,11 @@
   display: flex;
 }
 
+/* Wrapper (flex-wrap enabled) */
+.wrapper-wrap {
+  flex-wrap: wrap;
+}
+
 /* Row */
 
 /* Display as flex */
