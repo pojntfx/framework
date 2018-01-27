@@ -1,0 +1,50 @@
+/* Cards */
+
+/* Common style */
+
+.card {
+  background: #f8f9fa;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-radius: 8px;
+}
+
+/* Add a padding surrounding everything inside */
+
+.card-body {
+  padding: 1rem;
+}
+
+/* The card's title */
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+}
+
+/* A leading description */
+
+.card-text {
+  margin-bottom: 0;
+}
+
+/* The card's image (does not have any margins) */
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* A a margin to each button for responsiveness */
+
+.card-actions>a>button {
+  margin-bottom: 1rem;
+}
+
+/* Enable multiple buttons without glitching */
+
+.card-actions>a:not(:last-child) {
+  margin-right: 1rem;
+}

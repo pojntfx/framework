@@ -3,11 +3,6 @@
 @import url("/css/layout/container.css");
 @import url("/css/layout/grid.css");
 @import url("/css/layout/alignment.css");
-/* Utils */
-
-@import url("/css/utlis/utlis.css");
-@import url("/css/utlis/colors.css");
-@import url("/css/utlis/spacing.css");
 /* Content */
 
 @import url("/css/content/img.css");
@@ -16,6 +11,13 @@
 
 @import url("/css/components/alerts.css");
 @import url("/css/components/buttons.css");
+@import url("/css/components/card.css");
+@import url("/css/components/nav.css");
+/* Utils */
+
+@import url("/css/utlis/utlis.css");
+@import url("/css/utlis/colors.css");
+@import url("/css/utlis/spacing.css");
 /* Default style */
 
 @import url("/css/style/shadows.css");

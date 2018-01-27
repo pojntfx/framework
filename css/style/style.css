@@ -24,3 +24,9 @@ the last one */
 .wrapper-wrap-margins>*:not(:last-child) {
   margin-right: 1rem;
 }
+
+/* Add a margin to the bottom of each button */
+
+.wrapper-wrap-margins>a {
+  margin-bottom: 1rem;
+}
