@@ -1,0 +1,115 @@
+/* Navbar and Nav */
+
+/* Style inline */
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Highlight current element */
+
+.nav>li>a.current {
+  color: #448AFF;
+}
+
+/* Add a margin to every element in the navbar except the last one */
+
+ul.nav:first-child>li:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+/* The dropdown is not a navbar */
+
+ul.nav.dropdown-content>li {
+  margin-right: 0!important;
+}
+
+/* Hide normally, position absolute */
+
+.dropdown-wrapper {
+  display: none;
+  position: absolute;
+}
+
+/* Add a visual distinction between the navbar and the dropdown */
+
+.dropdown-content {
+  margin-top: 0.5rem;
+}
+
+/* Display a list, not a navbar */
+
+.dropdown-wrapper>ul {
+  display: block;
+}
+
+/* The same */
+
+.dropdown-toggle:hover .dropdown-wrapper {
+  display: block;
+}
+
+/* Make dropdown look consistent */
+
+.dropdown-content>li {
+  padding: 1rem;
+}
+
+/* Same hover as on light buttons */
+
+.dropdown-content>li:hover {
+  background: #dbdbdb;
+}
+
+/* Match the card specs */
+
+.dropdown-content>li:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* .... */
+
+.dropdown-content>li:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Center navigation links */
+
+.nav-link {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
+
+/* Span the full width like container-fluid */
+
+.navbar {
+  width: 100%;
+}
+
+/* LSD for the navbar */
+
+.navbar>.container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Overwrite the grid for visual consistency */
+
+.navbar>.container>.row>* {
+  margin: 0;
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
+
+/* Float the actual navigation to the right */
+
+.nav {
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -115,14 +115,6 @@ button.btn-white:hover {
   background: #f8f9fa;
 }
 
-button.btn-white {
-  background: #fff;
-}
-
-button.btn-white:hover {
-  background: #f8f9fa;
-}
-
 button.btn-black {
   background: #000;
   color: #fff;
