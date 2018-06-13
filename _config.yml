@@ -1,8 +1,22 @@
+# Meta
+title: Eluseum Framework
+author: pojntfx
+email: felicitas@pojtinger.com
+description: >-
+  A dead simple, minimal CSS framework.
+
+# Config
 baseurl: ""
-exclude: ["README.md", "LICENSE", "Gemfile", "Gemfile.lock", "node_modules"]
+url: "https://eluseum.tk/"
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-admin
+jekyll_admin:
+  hidden_links:
+    - datafiles # We do not have any data files currently
